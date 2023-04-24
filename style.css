@@ -1,0 +1,112 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.navbar{
+    background: black;
+    color: white
+    ;
+}
+.navbar-brand{
+    color: wheat;
+    padding: 10px;
+    margin: 10  px;
+}
+.navbar-brand:hover{
+    white-space: white;
+}
+samp{
+    color: rgb(236, 83, 83);
+    cursor: pointer;
+}
+.nav-item{
+padding-right: 50px;
+}
+.nav-link{
+    color: white;
+    text-transform:uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color:rgb(236, 86, 86) ;
+
+}
+.d-flex{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(236, 86, 86);
+}
+
+
+
+.main{
+   background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./young-fitness-man-studio.jpg)no-repeat;
+    background-size: cover;
+    height: 110vh;
+    }
+.container{
+    margin-top: 70px;
+    margin-left: 300px;
+    padding: 100px;
+    margin-right: 10px;
+}
+
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 55px;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg,#f5632b 0%,#fe9418 100%);
+    transition: 1s;
+}
+.btn1:hover{
+    background: linear-gradient(90deg,#fe9481 0%,#f5634b 100%);
+    transition: 1s;
+}
+.footer{
+    background-color: rgb(23, 8, 44);
+    color: white;
+}
+.footer h4,h5{
+    font-weight: 900;
+}
+.footer p{
+    margin: 0;
+    color: teal;
+}
+.link{
+    cursor: pointer;
+    transition: all,0,5s;
+}
+.link:hover{
+    color: rgb(236, 83, 83);
+    padding-left: 5px;
+}
+.fa-angle-double-right{
+    font-size: 18px;
+    color: teal;
+}
+.social{
+    color: white;
+    font-size: 24px;
+    transition: all0.45;
+}
+.social:hover{
+    color: red;
+    transition: all0.45;
+    cursor: pointer;
+
+}
+.card{
+background-color: black;
+border-radius: 0;
+
+
+}
